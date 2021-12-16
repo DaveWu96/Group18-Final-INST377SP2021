@@ -2,33 +2,35 @@ export default (database, DataTypes) => {
     const Players = database.define(
       'players',
       {
-        first_name: {
+        first_name:{
           type: DataTypes.STRING
         },
-        last_name: {
+
+        last_name:{
           type: DataTypes.STRING
         },
-        player_id: {
+
+        player_id:{
           type: DataTypes.INTEGER,
           allowNull: false,
           primaryKey: true
         },
-        height: {
+        height:{
           type: DataTypes.FLOAT
         },
-        weight: {
+        weight:{
           type: DataTypes.INTEGER
         },
-        position: {
+        position:{
             type: DataTypes.STRING
         },
-        college: {
+        college:{
             type: DataTypes.STRING
         },
-        year_drafted: {
+        year_drafted:{
             type: DataTypes.INTEGER
         },
-        team_id: {
+        team_id:{
           type: DataTypes.INTEGER,
           allowNull: false,
           primaryKey: true
