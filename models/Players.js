@@ -2,16 +2,16 @@ export default (database, DataTypes) => {
     const Players = database.define(
       'players',
       {
-        player_id: {
-          type: DataTypes.INTEGER,
-          allowNull: false,
-          primaryKey: true
-        },
         first_name: {
           type: DataTypes.STRING
         },
         last_name: {
           type: DataTypes.STRING
+        },
+        player_id: {
+          type: DataTypes.INTEGER,
+          allowNull: false,
+          primaryKey: true
         },
         height: {
           type: DataTypes.FLOAT
@@ -36,7 +36,7 @@ export default (database, DataTypes) => {
     },
     { freezeTableName: true, timestamps: false }
   );
-  
+
   return Players;
 };
   
