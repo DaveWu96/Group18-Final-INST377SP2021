@@ -1,12 +1,12 @@
-.max-width-nav {
+.max-width-nav{
   max-width: 700px;
 }
 
-body {
+body{
   min-height: 100%;
   background-color: rgb(68, 68, 68);
 }
-#arenas {
+#arenas{
   color: white;
 }
 
@@ -16,7 +16,7 @@ body {
     color: white;
   }
 
-  a:visited {
+  a:visited{
     color: white;
   }
 
@@ -24,17 +24,17 @@ body {
     text-align: center;
   }
 
-  .teams {
+  .teams{
     border-bottom-left-radius: 13px;
     border-top-left-radius: 13px;
   }
 
-  .games {
+  .games{
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
   }
 
-  .btn-group button {
+  .btn-group button{
     margin-top: 20px;
     font-size: 10px;
     color: white;
@@ -44,7 +44,7 @@ body {
     float: left;
   }
 
-  .btn-group button:hover {
+  .btn-group button:hover{
     background-color: rgb(143, 133, 133);
   }
 }
@@ -55,21 +55,21 @@ body {
     color: white;
   }
 
-  a:visited {
+  a:visited{
     color: white;
   }
 
-  .teams {
+  .teams{
     border-bottom-left-radius: 13px;
     border-top-left-radius: 13px;
   }
 
-  .games {
+  .games{
     border-bottom-right-radius: 13px;
     border-top-right-radius: 13px;
   }
 
-  .btn-group button {
+  .btn-group button{
     margin-top: 20px;
     font-size: 18px;
     color: white;
@@ -79,7 +79,7 @@ body {
     float: left;
   }
 
-  .btn-group button:hover {
+  .btn-group button:hover{
     background-color: rgb(143, 133, 133);
   }
 }
